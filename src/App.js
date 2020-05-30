@@ -38,7 +38,7 @@ onClickHandler = (idx) => {
 }
 
 render(){
-
+//test comment
 const style = {
   backgroundColor : 'white',
     font : 'inherit',
