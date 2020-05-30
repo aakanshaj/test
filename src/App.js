@@ -29,12 +29,7 @@ onChangeHandler = (event) => {
 inputChangeHandler = (event) => {
   this.setState({input : event.target.value})
 }
-
-//<UserInput style={style} username={this.state.usernames[1]} change={this.onChangeHandler}></UserInput>
-     // <UserOuput username={this.state.usernames[0]}></UserOuput>
-    //  <UserOuput username={this.state.usernames[1]}></UserOuput>
-    //  <UserOuput username={this.state.usernames[2]}></UserOuput>
-
+//test
 onClickHandler = (idx) => {
   const str = this.state.input.split('');
   str.splice(idx, 1);
